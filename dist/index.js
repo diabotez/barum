@@ -15,3 +15,4 @@ try {
     core.setFailed(error.message);
 }
 
+export default {};
