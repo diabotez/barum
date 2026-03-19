@@ -1,15 +1,16 @@
-name: 'Barum GitHub Action'
+name: 'Barum GitHub Action - Hello World'
 
 description: 'A custom GitHub action that greets a user.'
 
 inputs:
-  name:
+  who-to-greet:
     description: 'The name to greet'
     required: true
+    default: World
 
 outputs:
-  greeting:
-    description: 'The greeting message'
+  time: #id of the output
+    description: The time we greet you
 
 runs:
   using: 'node20'
